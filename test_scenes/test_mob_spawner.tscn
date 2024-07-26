@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cg61f0d4amqn3"]
+
+[ext_resource type="PackedScene" uid="uid://bdvh4tk3me1n4" path="res://systems/mob_spawner.tscn" id="2_40j8h"]
+
+[node name="TestMobSpawner" type="Node2D"]
+
+[node name="MobSpawner" parent="." instance=ExtResource("2_40j8h")]
+mobs_per_minute = 60

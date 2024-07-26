@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://csrjs21253nyg"]
+
+[ext_resource type="PackedScene" uid="uid://diibp057fsawj" path="res://ui/game_ui.tscn" id="2_4pxrb"]
+
+[node name="TestUi" type="Node2D"]
+
+[node name="GameUI" parent="." instance=ExtResource("2_4pxrb")]

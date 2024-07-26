@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3gvmjk5b4r1i"]
+
+[ext_resource type="Texture2D" uid="uid://2pkop14bfvcf" path="res://addons/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png" id="1_6b8ot"]
+[ext_resource type="Texture2D" uid="uid://c0s41763hf1r1" path="res://addons/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png" id="2_d3bda"]
+[ext_resource type="Texture2D" uid="uid://cnc85g7aovefm" path="res://addons/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png" id="3_vpnr4"]
+[ext_resource type="Texture2D" uid="uid://crmu3uwhlshg7" path="res://addons/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Blue.png" id="4_7cuof"]
+[ext_resource type="Texture2D" uid="uid://dixyjroet7e5k" path="res://addons/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="5_07icu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TilemapFlat" type="Sprite2D" parent="."]
+position = Vector2(296, 126)
+texture = ExtResource("1_6b8ot")
+
+[node name="TilemapElevation" type="Sprite2D" parent="."]
+position = Vector2(734, 141)
+texture = ExtResource("2_d3bda")
+
+[node name="Rocks01" type="Sprite2D" parent="."]
+position = Vector2(99, 370)
+texture = ExtResource("3_vpnr4")
+
+[node name="HouseBlue" type="Sprite2D" parent="."]
+position = Vector2(238, -286)
+texture = ExtResource("4_7cuof")
+
+[node name="WarriorBlue" type="Sprite2D" parent="."]
+position = Vector2(1528, -206)
+texture = ExtResource("5_07icu")
